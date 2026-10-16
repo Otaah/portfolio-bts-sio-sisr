@@ -1,0 +1,12 @@
+# Exemple pour le laboratoire uniquement, à adapter aux interfaces réelles.
+# Comparer avec le fichier Netplan existant avant toute modification.
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: true
+    enp0s8:
+      dhcp4: false
+      addresses:
+        - 192.168.56.10/24

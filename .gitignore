@@ -1,0 +1,37 @@
+# Disques virtuels, images d'installation et archives de laboratoire
+*.vdi
+*.vmdk
+*.qcow2
+*.vhd
+*.vhdx
+*.iso
+*.ova
+*.vbox
+*.vbox-prev
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+sauvegardes/
+
+# Identifiants et fichiers privés
+.env
+.env.*
+!.env.example
+.ssh/
+id_rsa*
+id_ed25519*
+sisr_lab_ed25519*
+authorized_keys
+known_hosts
+*.pem
+*.key
+secrets/
+donnees-privees/
+
+# Fichiers temporaires
+*.bak
+*.swp
+__pycache__/
+.DS_Store
+Thumbs.db

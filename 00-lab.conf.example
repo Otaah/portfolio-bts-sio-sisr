@@ -1,0 +1,7 @@
+# Exemple à appliquer seulement après validation de la connexion par clé.
+# Vérifier les valeurs effectives avec sshd -T avant rechargement.
+PubkeyAuthentication yes
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+PermitRootLogin no
+AllowUsers adminlab
